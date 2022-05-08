@@ -1,0 +1,130 @@
+/* Homepage CSS*/
+.home-section{
+  background: #f5f5f5;
+  margin-left: 260px;
+  min-height: 100vh;
+  left: 240px;
+}
+
+
+
+ 
+.home-section nav{
+
+width: calc(100% - 5px);
+  height: 80px;
+  background: #fff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* no need mag div para mapaghiwalay yung text, need lang ganto property*/
+}
+
+
+
+.home-section nav .sidebar-button{
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+
+.home-section nav .sidebar-button i{
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+
+.home-section nav  .search-box{
+  height: 50px;
+  width: 550px;
+  margin: 0 20px;
+  position: relative;
+
+
+}
+
+nav .search-box input{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  padding: 0 15px;
+  font-size: 17px;
+  color: black;
+  background: #f5f6fa;
+  border: 2px solid #efeef1;
+  outline: none;
+}
+
+
+nav .search-box .bx-search-alt-2{
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 40px;
+  width: 40px;
+  background: #38ACEC;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+.home-section nav .profile-details {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  min-width: 190px;
+  background: #f5f6fa;
+  border: 2px solid #efeef1;
+  border-radius: 6px;
+  padding: 0 15px 0 2px;
+}
+
+
+/* properties for My profile*/
+
+nav .profile-details i {
+  height: 40px;
+  width: 40px;
+  margin-top: 15px;
+  margin-left: 10px;
+  object-fit: cover; /*resized to fit its container*/
+  border-radius: 6px;
+
+}
+
+ nav .profile-details .admin-name a{
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+  margin: 0 40px;
+  white-space: nowrap;
+  text-decoration: none;
+
+}
+
+nav .profile-details i{
+  color: #333;
+  font-size: 25px;
+
+}
+
+.home-section .home-content{
+  position: relative;
+  padding-top: 33px;
+}
+
+
+@media (max-width: 1216px){
+
+
+  .home-section{
+      width: calc(100% - 7px);
+  }
+}
